@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt-get install vim gcc g++ build-essential kernel-package libncurses5-dev qt4-dev-tools grub fakeroot devscripts bc git -y
+sudo apt-get install vim gcc g++ build-essential kernel-package libncurses5-dev qt4-dev-tools grub fakeroot devscripts bc git cmake -y
 
 wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.1.18.tar.gz
 tar xf linux-4.1.18.tar.gz
