@@ -18,5 +18,3 @@ sudo usermod -a -G xenomai $USER
 sudo update-initramfs -c -k 4.1.18version
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo update-grub
-
-sudo reboot
