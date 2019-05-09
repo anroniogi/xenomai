@@ -9,6 +9,6 @@ tar xf xenomai-3.0.3.tar.bz2
 
 cd linux-4.1.18
 wget https://xenomai.org/downloads/ipipe/v4.x/x86/older/ipipe-core-4.1.18-x86-7.patch
-../xenomai-3.0.3/scripts/prepare-kernel.sh --arch=x86_64 --ipipe=ipipe-core-4.1.18-x86-7.patch
+../xenomai-3.0.3/scripts/prepare-kernel.sh --arch=x86_64 --linux=. --ipipe=ipipe-core-4.1.18-x86-7.patch
 
 sudo make menuconfig
