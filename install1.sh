@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo apt-get install vim gcc g++ build-essential kernel-package libncurses5-dev qt4-dev-tools grub fakeroot devscripts bc git cmake3 -y
 
-wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.1.18.tar.gz
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v4.x/linux-4.1.18.tar.gz --no-check-certificate
 tar xf linux-4.1.18.tar.gz
 
 wget https://xenomai.org/downloads/xenomai/stable/xenomai-3.0.3.tar.bz2 
